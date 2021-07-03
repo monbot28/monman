@@ -1,10 +1,10 @@
 {
-  "name": "Man-Userbot",
-  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "name": "Mon-Userbot",
+  "description": "[Mon-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
   "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
   "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
-  "repository": "https://github.com/mrismanaziz/Man-Userbot",
-  "telegram": "https://t.me/mrismanaziz",
+  "repository": "https://github.com/monbot28/monman",
+  "telegram": "https://t.me/mondisini",
   "success_url": "https://t.me/Lunatic0de",
   "stack": "container",
   "env": {
