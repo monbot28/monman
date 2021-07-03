@@ -29,7 +29,7 @@ async def typewriter(typew):
         "`\n┻┳|￣  )`"
         "`\n┳ﾐ(￣ ／`"
         "`\n┻┳T￣|`"
-        "\n**Punten**"
+        "\n**Punten mon datang**"
     )
 
 
@@ -44,7 +44,7 @@ async def typewriter(typew):
         "`\n┻┳|￣  )`"
         "`\n┳ﾐ(￣ ／`"
         "`\n┻┳T￣|`"
-        "\n**Masih Ku Pantau**"
+        "\n**Masih Mon Pantau**"
     )
 
 
