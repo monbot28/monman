@@ -243,7 +243,7 @@ async def amireallyalive(alive):
         f"┗━━━━━━━━━━━━━━━━ \n"
         f"⚡️ **Repo Userbot :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot) \n"
         f"⚡️ **Grup Userbot :** [Tekan Disini](https://t.me/sharinguserbot) \n"
-        f"⚡️ **Owner :** [Risman](t.me/mrismanaziz) \n"
+        f"⚡️ **Owner :** [Mon✨](t.me/mondisinj) \n"
     )
     if ALIVE_LOGO:
         try:
@@ -317,7 +317,7 @@ async def amireallyalive(alive):
         f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
         f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
         f"{ALIVE_EMOJI} **Bot Uptime :** `{uptime}` \n\n"
-        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/sharinguserbot)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/Lunatic0de)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/mrismanaziz)**"
+        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/sharinguserbot)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/Lunatic0de)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/mondisinj)**"
     )
     if ALIVE_LOGO:
         try:
