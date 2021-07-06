@@ -49,6 +49,18 @@ async def typewriter(typew):
     await typew.edit("**Punten, bismillah admin**")
 
 
+@register(outgoing=True, pattern="^.bad(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Bismillah admin**")
+
+
+@register(outgoing=True, pattern="^.bd(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Bismillah aja dulu**")
+
+
 @register(outgoing=True, pattern="^.bt(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
