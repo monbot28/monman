@@ -38,11 +38,15 @@ async def typewriter(typew):
     await typew.edit("**Punten, bismillah mon dapet sleepcall**")
 
 
-@register(outgoing=True, pattern="^.a(?: |$)(.*)")
+@register(outgoing=True, pattern="^.cw(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Punten, bismillah nyantol cewe satu**")
 
+@register(outgoing=True, pattern="^.ad(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Punten, bismillah admin**")
 
 
 CMD_HELP.update(
