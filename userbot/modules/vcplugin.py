@@ -42,7 +42,7 @@ async def start_voice(c):
         return
     try:
         await c.client(startvc(c.chat_id))
-        await c.edit("`Voice Chat Started...`")
+        await c.edit("`Voice Chat Sudah Hidup Bos...`")
     except Exception as ex:
         await c.edit(f"**ERROR:** `{ex}`")
 
@@ -58,14 +58,14 @@ async def stop_voice(c):
         return
     try:
         await c.client(stopvc(await get_call(c)))
-        await c.edit("`Voice Chat Stopped...`")
+        await c.edit("`Voice Chat Matiin Dulu...`")
     except Exception as ex:
         await c.edit(f"**ERROR:** `{ex}`")
 
 
 @register(outgoing=True, groups_only=True, pattern=r"^\.vcinvite")
 async def _(c):
-    await c.edit("`Inviting Members to Voice Chat...`")
+    await c.edit("`Mengundang seseorang yang mau naik...`")
     users = []
     z = 0
     async for x in c.client.iter_participants(c.chat_id):
