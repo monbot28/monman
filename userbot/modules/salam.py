@@ -32,16 +32,17 @@ async def typewriter(typew):
     await typew.edit("**Wa'alaikumsalam dari mon**")
 
 
-@register(outgoing=True, pattern=r"^\.k(?: |$)(.*)")
+@register(outgoing=True, pattern="^.m(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Punten, bismillah sleepcall**")
+    await typew.edit("**Punten, bismillah mon dapet sleepcall**")
 
 
-@register(outgoing=True, pattern=r"^\.j(?: |$)(.*)")
+@register(outgoing=True, pattern="^.a(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Misi, mon mau ikut nimbrung**")
+    await typew.edit("**Punten, bismillah nyantol cewe satu**")
+
 
 
 CMD_HELP.update(
