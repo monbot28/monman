@@ -53,7 +53,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**PONG!!🏓**\n"
+        f"**MON PING!!🏓**\n"
         f"✣ **Pinger** - `%sms`\n"
         f"✣ **Uptime -** `{uptime}` \n"
         f"**✦҈͜͡Owner :** `{ALIVE_NAME}`" % (duration)
@@ -69,7 +69,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**PONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**LAGI NYEPONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
 
@@ -128,7 +128,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**PONG!!🏓**\n"
+        f"**MON PING!!🏓**\n"
         f"✣ **Pinger** - `%sms`\n"
         f"✣ **Uptime -** `{uptime}` \n"
         f"**✦҈͜͡Owner :** `{ALIVE_NAME}`" % (duration)
@@ -174,10 +174,10 @@ async def speedtst(spd):
 async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     start = datetime.now()
-    await pong.edit("`Sepong.....🏓`")
+    await pong.edit("`Lagi Sepong.....🏓`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit("🏓 **Ping!**\n`%sms`" % (duration))
+    await pong.edit("🏓 **Mon Ping!**\n`%sms`" % (duration))
 
 
 @register(outgoing=True, pattern=r"^\.usange(?: |$)(.*)")
@@ -188,11 +188,11 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(
         "**Informasi Dyno Usage ★**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"-> `Penggunaan Dyno` **{ALIVE_NAME}**:\n"
+        f"-> `PENGGUNAAN BOT MON` **{ALIVE_NAME}**:\n"
         f" ❉ **10 Jam - "
         f"51 Menit - 0%**"
         "\n ◐━─━─━─━─━──━─━─━─━─━◐\n"
-        "-> `Sisa Dyno Bulan Ini`:\n"
+        "-> `Sisa Hidup Bulan Ini`:\n"
         f" ❉ **9989 Jam - 9948 Menit "
         f"- 99%**\n"
         "╰━━━━━━━━━━━━━━━━━━━━╯"
