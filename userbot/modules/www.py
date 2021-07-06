@@ -199,6 +199,54 @@ async def typewriter(typew):
     )
 
 
+@register(outgoing=True, pattern="^.xpuing$")
+async def redis(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("__Connecting to data center.__")
+    await pong.edit("__Connecting to data center..__")
+    await pong.edit("__Connecting to data center...__")
+    await pong.edit("__Connecting to data center.__")
+    await pong.edit("__Connecting to data center..__")
+    await pong.edit("__Connecting to data center...__")
+    await pong.edit("__Connecting to data center.__")
+    await pong.edit("__Connecting to data center..__")
+    await pong.edit("__Connecting to data center...__")
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"**🔥𝗠𝗼𝗻-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🔥**\n"
+                    f"➾ Signal    : "
+                    f"%sms \n"
+                    f"➾ Uptime : "
+                    f"{uptime} \n" % (duration))
+
+
+@register(outgoing=True, pattern="^.puings$")
+async def redis(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("__Connecting.__")
+    await pong.edit("__Connecting..__")
+    await pong.edit("__Connecting...__")
+    await pong.edit("__Connecting....__")
+    await pong.edit("__Connecting.__")
+    await pong.edit("__Connecting..__")
+    await pong.edit("__Connecting...__")
+    await pong.edit("__Connecting....__")
+    await pong.edit("✨")
+    await asyncio.sleep(2)
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"**✨Mon-Userbot✨**\n\n"
+                    f"** ▹  Sɪɢɴᴀʟ   :** "
+                    f"%sms \n"
+                    f"** ▹  Uᴘᴛɪᴍᴇ  :** "
+                    f"{uptime} \n"
+                    f"** ▹  Oᴡɴᴇʀ   :** {ALIVE_NAME} \n" % (duration))
+
+
 # @mixiologist
 
 
