@@ -44,10 +44,10 @@ async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**『⍟𝐊𝐎𝐍𝐓𝐎𝐋』**")
-    await pong.edit("**◆◈𝐊𝐀𝐌𝐏𝐀𝐍𝐆◈◆**")
-    await pong.edit("**𝐏𝐄𝐂𝐀𝐇𝐊𝐀𝐍 𝐁𝐈𝐉𝐈 𝐊𝐀𝐔 𝐀𝐒𝐔**")
-    await pong.edit("**☬𝐒𝐈𝐀𝐏 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 𝐌𝐄𝐍𝐔𝐌𝐁𝐔𝐊 𝐀𝐒𝐔☬**")
+    await pong.edit("**『PIU PIU』**")
+    await pong.edit("**◆◈PIU KONTOL◈◆**")
+    await pong.edit("**JANGAN LUPA COLI WOI KONTOL**")
+    await pong.edit("**LAKSANAKAN SIAP COLI KOMANDAN**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
@@ -85,7 +85,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**NGENTOT!! 🐨**\n**KAMPANG** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**NGENTOT!! 🐨**\n**SEPONG** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
 
@@ -93,9 +93,9 @@ async def pingme(pong):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Haii Salken Saya {DEFAULTUSER}**")
+    await typew.edit(f"**Misi, semua yang ada disini**")
     sleep(2)
-    await typew.edit("**Assalamualaikum**")
+    await typew.edit("**Mau ikut nimbrung**")
 
 
 # Owner @Si_Dian
@@ -105,9 +105,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
+    await typew.edit(f"**BELI KERUDUNG BAWA GOLOK**")
     sleep(3)
-    await typew.edit("**NIMBRUNG GOBLOKK!!!🔥**")
+    await typew.edit("**WOI NIMBRUNG GOBLOKK!!!🔥**")
 
 
 # Owner @Si_Dian
@@ -117,7 +117,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Hallo KIMAAKK SAYA {DEFAULTUSER}**")
+    await typew.edit(f"**Hallo Para Sagapung**")
     sleep(2)
     await typew.edit("**LU SEMUA NGENTOT 🔥**")
 
