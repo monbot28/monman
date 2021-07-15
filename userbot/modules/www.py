@@ -53,10 +53,10 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**MON PING!!🏓**\n"
+        f"**PING PONG!!🏓**\n"
         f"✣ **Pinger** - `%sms`\n"
         f"✣ **Uptime -** `{uptime}` \n"
-        f"**✦҈͜͡Owner :** `{ALIVE_NAME}`" % (duration)
+        f"**✦҈͜͡Owner  :** `{ALIVE_NAME}`" % (duration)
     )
 
 
@@ -69,7 +69,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**LAGI NYEPONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**PING PONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
 
@@ -90,7 +90,7 @@ async def pingme(pong):
         f"`%sms` \n"
         f"❃ **Uptime -** "
         f"`{uptime}` \n"
-        f"**✦҈͜͡➳ Master :** `{ALIVE_NAME}`" % (duration)
+        f"**✦҈͜͡➳ Si bego :** `{ALIVE_NAME}`" % (duration)
     )
 
 
@@ -128,7 +128,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**MON PING!!🏓**\n"
+        f"**PONG PING!!🏓**\n"
         f"✣ **Pinger** - `%sms`\n"
         f"✣ **Uptime -** `{uptime}` \n"
         f"**✦҈͜͡Owner :** `{ALIVE_NAME}`" % (duration)
@@ -174,7 +174,7 @@ async def speedtst(spd):
 async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     start = datetime.now()
-    await pong.edit("`Lagi Sepong.....🏓`")
+    await pong.edit("`Bot Rempong.....🏓`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     await pong.edit("🏓 **Mon Ping!**\n`%sms`" % (duration))
@@ -189,11 +189,11 @@ async def typewriter(typew):
     await typew.edit(
         "**Informasi Dyno Usage ★**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
         f"-> `PENGGUNAAN BOT MON` **{ALIVE_NAME}**:\n"
-        f" ❉ **10 Jam - "
-        f"51 Menit - 0%**"
+        f" ❉ **1000 Jam - "
+        f"10 Menit - 0%**"
         "\n ◐━─━─━─━─━──━─━─━─━─━◐\n"
         "-> `Sisa Hidup Bulan Ini`:\n"
-        f" ❉ **9989 Jam - 9948 Menit "
+        f" ❉ **6969 Jam - 6969 Menit "
         f"- 99%**\n"
         "╰━━━━━━━━━━━━━━━━━━━━╯"
     )
@@ -204,18 +204,18 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("__Connecting to data center.__")
-    await pong.edit("__Connecting to data center..__")
-    await pong.edit("__Connecting to data center...__")
-    await pong.edit("__Connecting to data center.__")
-    await pong.edit("__Connecting to data center..__")
-    await pong.edit("__Connecting to data center...__")
-    await pong.edit("__Connecting to data center.__")
-    await pong.edit("__Connecting to data center..__")
-    await pong.edit("__Connecting to data center...__")
+    await pong.edit("__Menghubungkan.__")
+    await pong.edit("__Menghubungkan..__")
+    await pong.edit("__Menghubungkan...__")
+    await pong.edit("__Menghubungkan.__")
+    await pong.edit("__Menghubungkan..__")
+    await pong.edit("__Menghubungkan...__")
+    await pong.edit("__Menghubhngkan.__")
+    await pong.edit("__Menghubungkan..__")
+    await pong.edit("__Menghubungkan...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥𝗠𝗼𝗻-Userbot🔥**\n"
+    await pong.edit(f"**🔥Mon-Userbot🔥**\n"
                     f"➾ Signal    : "
                     f"%sms \n"
                     f"➾ Uptime : "
@@ -227,14 +227,14 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("__Connecting.__")
-    await pong.edit("__Connecting..__")
-    await pong.edit("__Connecting...__")
-    await pong.edit("__Connecting....__")
-    await pong.edit("__Connecting.__")
-    await pong.edit("__Connecting..__")
-    await pong.edit("__Connecting...__")
-    await pong.edit("__Connecting....__")
+    await pong.edit("__Mon Loading.__")
+    await pong.edit("__Mon Loading..__")
+    await pong.edit("__Mon Loading...__")
+    await pong.edit("__Mon Loading....__")
+    await pong.edit("__Mon Loading.__")
+    await pong.edit("__Mon Loading..__")
+    await pong.edit("__Mon Loading...__")
+    await pong.edit("__Mon Loading....__")
     await pong.edit("✨")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
