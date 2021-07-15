@@ -41,7 +41,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^.cw(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Punten, bismillah nyantol cewe satu**")
+    await typew.edit("**Bismillah dapet admin cewe**")
 
 @register(outgoing=True, pattern="^.ba(?: |$)(.*)")
 async def typewriter(typew):
