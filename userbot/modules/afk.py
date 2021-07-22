@@ -111,8 +111,8 @@ async def on_afk(event):
                 f"**╭━━━━━━━━━━━━━━━╮** \n" 
                 f"**     ✨ 𝗠 𝗢 𝗡  •  𝗔 𝗙 𝗞 ✨** \n" 
                 f"**   ✠━━━━━━❖━━━━━━✠** \n" 
-                f"**   • ᴏᴡɴᴇʀ :** {ALIVE_NAME} \n"
-                f"**   • ᴋᴀʀᴇɴᴀ :** {reason} \n" 
+                f"**   ➥ ᴏᴡɴᴇʀ :** {ALIVE_NAME} \n"
+                f"**   ➥ ᴋᴀʀᴇɴᴀ :** {reason} \n" 
                 f"**╰━━━━━━━━━━━━━━━╯** \n"
             )
         else:
@@ -120,8 +120,8 @@ async def on_afk(event):
                 f"**╭━━━━━━━━━━━━━━━╮** \n" 
                 f"**     ✨ 𝗠 𝗢 𝗡  •  𝗔 𝗙 𝗞 ✨** \n" 
                 f"**   ✠━━━━━━❖━━━━━━✠** \n" 
-                f"**   • ᴏᴡɴᴇʀ :** {ALIVE_NAME} \n"
-                f"**   • ᴋᴀʀᴇɴᴀ :** {reason} \n" 
+                f"**   ➥ ᴏᴡɴᴇʀ :** {ALIVE_NAME} \n"
+                f"**   ➥ ᴋᴀʀᴇɴᴀ :** {reason} \n" 
                 f"**╰━━━━━━━━━━━━━━━╯** \n"
             )
         try:
@@ -185,7 +185,9 @@ async def _(event):
                     await bot.send_message(event.chat_id, file=pic)
                     await bot.send_message(
                         event.chat_id,
-                        f"\n**✘ {ALIVE_NAME} Telah AFK ✘**\n**✦҈͜͡➳ Karena :** `{reason}`",
+                        f"**╭━━━━━━━━━━━━━━━╮** \n" 
+                        f"**     ✨ 𝗠 𝗢 𝗡  •  𝗔 𝗙 𝗞 ✨** \n" 
+                        f"**╰━━━━━━━━━━━━━━━╯** \n"
                     )
                 else:
                     await bot.send_message(
@@ -196,10 +198,12 @@ async def _(event):
             except BaseException:
                 await bot.send_message(
                     event.chat_id,
-                    f"\n**✘ {ALIVE_NAME} Telah AFK ✘**\n**✦҈͜͡➳ Karena :** `{reason}`",
-                )
-        else:
-            try:
+                    f"**╭━━━━━━━━━━━━━━━╮** \n" 
+                    f"**     ✨ 𝗠 𝗢 𝗡  •  𝗔 𝗙 𝗞 ✨** \n" 
+                    f"**╰━━━━━━━━━━━━━━━╯** \n"
+                 )
+           else:
+              try:
                 if pic.endswith((".tgs", ".webp")):
                     await bot.send_message(event.chat_id, file=pic)
                     await bot.send_message(
