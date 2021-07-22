@@ -227,7 +227,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f" **┗┓ ✮ {DEFAULTUSER} USERBOT ✮ ┏┛** \n"
+        f" **┗┓ ✮ M ⛑ N • USERBOT ✮ ┏┛** \n"
         f"\n**{ALIVE_TEKS_CUSTOM}**\n"
         f"**━━━━━━━━━━━━━━━**\n"
         f"**✮ Master ✮** \n"
@@ -243,7 +243,7 @@ async def amireallyalive(alive):
         f"┗━━━━━━━━━━━━━━━━ \n"
         f"⚡️ **Repo Userbot :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot) \n"
         f"⚡️ **Grup Userbot :** [Tekan Disini](https://t.me/sharinguserbot) \n"
-        f"⚡️ **Owner :** [Mon✨](t.me/mondisinj) \n"
+        f"⚡️ **Owner :** [Mon🏓](t.me/mondisini) \n"
     )
     if ALIVE_LOGO:
         try:
@@ -270,19 +270,19 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f"۝⩵►{DEFAULTUSER} USERBOT◄⩵۝\n \n"
+        f"۝⩵►M ⛑ N • USERBOT◄⩵۝\n \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"┣[•👤 `USER     :`{DEFAULTUSER}\n"
-        f"┣[ 👁‍🗨 `Username :`@{user.username}\n"
+        f"┣[•⛑ `USER     :`{DEFAULTUSER}\n"
+        f"┣[•⛑ `Username :`@{user.username}\n"
         "`┣▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱`\n"
-        f"┣[•⚙️ `Telethon :`v {version.__version__} 🔥\n"
-        f"┣[•🐍 `Python   :`v {python_version()} 🔥\n"
-        f"┣[•💻 `Base on  :`{UPSTREAM_REPO_BRANCH}🔥\n"
-        f"┣[•🛠 `Version  :`{BOT_VER} 🔥\n"
-        f"┣[•🗃 `Modules  :`{len(modules)} Loaded🔥\n"
-        f"┣[•🕒 `Uptime   :`{uptime} 🔥\n"
+        f"┣[•🔥 `Telethon :`v {version.__version__} \n"
+        f"┣[•✨ `Python   :`v {python_version()} \n"
+        f"┣[•🔥 `Base on  : Mon Userbot\n"
+        f"┣[•✨ `Version  :`{BOT_VER} \n"
+        f"┣[•🔥 `Modules  :`{len(modules)} Loaded\n"
+        f"┣[•✨ `Uptime   :`{uptime} \n"
         f"╰━━━━━━━━━━━━━━━━━━━━━╯\n"
-        f" • MOD BY : `{DEFAULTUSER}`"
+        f" • MOD BY : MON BEGO"
     )
     if ALIVE_LOGO:
         try:
@@ -309,7 +309,7 @@ async def amireallyalive(alive):
     await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f"**[Man-Userbot](https://github.com/mrismanaziz/Man-Userbot) is Up and Running.**\n\n"
+        f"**[Mon-Userbot](https://t.me/mondisini) is Up and Running.**\n\n"
         f"**{ALIVE_TEKS_CUSTOM}**\n\n"
         f"{ALIVE_EMOJI} **Master :** `{DEFAULTUSER}` \n"
         f"{ALIVE_EMOJI} **Modules :** `{len(modules)} Modules` \n"
@@ -317,7 +317,7 @@ async def amireallyalive(alive):
         f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
         f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
         f"{ALIVE_EMOJI} **Bot Uptime :** `{uptime}` \n\n"
-        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/sharinguserbot)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/Lunatic0de)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/mondisinj)**"
+        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/sharinguserbot)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/Lunatic0de)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/mondisini)**"
     )
     if ALIVE_LOGO:
         try:
