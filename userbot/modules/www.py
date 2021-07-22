@@ -235,6 +235,7 @@ async def redis(pong):
     await pong.edit("__Mon Loading..__")
     await pong.edit("__Mon Loading...__")
     await pong.edit("__Mon Loading....__")
+    await asyncio.sleep(1)
     await pong.edit("✨")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -256,6 +257,30 @@ async def pingme(pong):
     duration = (end - start).microseconds / 9000
     await pong.edit(f"**Oᴡɴᴇʀ : {ALIVE_NAME}**\n`%sms`" % (duration))
 
+
+@register(outgoing=True, pattern="^.pongs$")
+async def redis(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("__Mon Loading.__")
+    await pong.edit("__Mon Loading..__")
+    await pong.edit("__Mon Loading...__")
+    await pong.edit("__Mon Loading....__")
+    await pong.edit("__Mon Loading.__")
+    await pong.edit("__Mon Loading..__")
+    await pong.edit("__Mon Loading...__")
+    await pong.edit("__Mon Loading....__")
+    await asyncio.sleep(1)
+    await pong.edit("✨")
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(
+              "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
+              "┣[•**Ping** : `%sms`\n"
+              "┣[•**Time** : `{uptime}`\n"
+              "┣[•**Owner**: `{ALIVE_NAME}`" % (duration)\n"
+              "╰✠╼━━━━━━❖━━━━━━━✠╯")
 
 # @mixiologist
 
