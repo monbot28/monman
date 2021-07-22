@@ -188,7 +188,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(
         "**Informasi Dyno Usage ★**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"-> `PENGGUNAAN BOT MON` **{ALIVE_NAME}**:\n"
+        f"-> `PENGGUNAAN BOT MON` :\n"
         f" ❉ **1000 Jam - "
         f"10 Menit - 0%**"
         "\n ◐━─━─━─━─━──━─━─━─━─━◐\n"
@@ -288,7 +288,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━╮** \n" 
-                    f"**     ✨ 𝗠 𝗢 𝗡  •  𝗕 𝗢 𝗧 ✨** \n" 
+                    f"**     ✨ 𝗠 ⛑ 𝗡  •  𝗕 𝗢 𝗧 ✨** \n" 
                     f"** ✠━━━━━━❖❖━━━━━━✠ ** \n" 
                     f"**   • sɪɢɴᴀʟ :** %sms \n" 
                     f"**   • ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
