@@ -268,6 +268,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
+                    f"┣[•PING PONG PING🏓 \n"
                     f"┣[•__Signal__ __:__ "
                     f"`%sms` \n"
                     f"┣[•__Uptime__ __:__ "
@@ -276,7 +277,23 @@ async def redis(pong):
                     f"`{ALIVE_NAME}` \n"
                     f"╰✠╼━━━━━━❖━━━━━━━✠╯\n" % (duration))
 
-
+@register(outgoing=True, pattern="^Xping$")
+async def redis(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("__Harap..__")
+    await pong.edit("__Harap Sabar...__")
+    await pong.edit("__Harap Lebih Sabar....__")
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n" 
+                    f"** ✨ 𝗠 𝗢 𝗡  •  𝗕 𝗢 𝗧 ✨** \n" 
+                    f"** ✠╼━━━━━━❖━━━━━━━✠** \n" 
+                    f"** • sɪɢɴᴀʟ :** %sms \n" 
+                    f"** • ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
+                    f"** • ᴏᴡɴᴇʀ :** {ALIVE_NAME} \n" 
+                    f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
 
 # @mixiologist
 
