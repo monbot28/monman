@@ -258,22 +258,6 @@ async def pingme(pong):
     await pong.edit(f"**Oᴡɴᴇʀ : {ALIVE_NAME}**\n`%sms`" % (duration))
 
 
-@register(outgoing=True, pattern="^.pongs$")
-async def redis(pong):
-    """ For .ping command, ping the userbot from any chat.  """
-    uptime = await get_readable_time((time.time() - StartTime))
-    start = datetime.now()
-    await pong.edit("__Mon Loading.__")
-    end = datetime.now()
-    duration = (end - start).microseconds / 1000
-    await pong.edit(
-              "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-             f"┣[•**Ping** : "
-             f"%sms \n"
-             f"┣[•**Time** : `{uptime}`\n"
-             f"┣[•**Owner**: `{ALIVE_NAME}`\n"
-             f"╰✠╼━━━━━━❖━━━━━━━✠╯")
-
 # @mixiologist
 
 
