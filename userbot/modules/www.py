@@ -267,15 +267,15 @@ async def redis(pong):
     await pong.edit("__Mohon menunggu...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-                    f"┣[•PING PONG PING🏓 \n"
+    await pong.edit(f"   PING PONG PING🏓 \n"
+                    f"╭✠╼━━━━━❖━━━━━━✠╮\n"
                     f"┣[•__Signal__ __:__ "
                     f"`%sms` \n"
                     f"┣[•__Uptime__ __:__ "
                     f"`{uptime}` \n"
                     f"┣[•__Owner__ __:__ "
                     f"`{ALIVE_NAME}` \n"
-                    f"╰✠╼━━━━━━❖━━━━━━━✠╯\n" % (duration))
+                    f"╰✠╼━━━━━❖━━━━━━✠╯\n" % (duration))
 
 @register(outgoing=True, pattern="^Xping$")
 async def redis(pong):
@@ -287,13 +287,13 @@ async def redis(pong):
     await pong.edit("__Harap Lebih Sabar....__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n" 
-                    f"** ✨ 𝗠 𝗢 𝗡  •  𝗕 𝗢 𝗧 ✨** \n" 
-                    f"** ✠╼━━━━━━❖━━━━━━━✠** \n" 
-                    f"** • sɪɢɴᴀʟ :** %sms \n" 
-                    f"** • ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
-                    f"** • ᴏᴡɴᴇʀ :** {ALIVE_NAME} \n" 
-                    f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
+    await pong.edit(f"**╭━━━━━━━━━━━━━━━╮** \n" 
+                    f"**    ✨ 𝗠 𝗢 𝗡  •  𝗕 𝗢 𝗧 ✨** \n" 
+                    f"**  ✠━━━━━━❖━━━━━━━✠ ** \n" 
+                    f"**   • sɪɢɴᴀʟ :** %sms \n" 
+                    f"**   • ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
+                    f"**   • ᴏᴡɴᴇʀ :** {ALIVE_NAME} \n" 
+                    f"**╰━━━━━━━━━━━━━━━╯** \n" % (duration))
 
 # @mixiologist
 
